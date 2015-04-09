@@ -11,9 +11,8 @@ train_path = r"/home/david/Documents/train_file_ages.csv"
 test_path = r"/home/david/Documents/test_file_ages.csv"
 
 def studentReg(x, y):
-    ### import the sklearn regression module, create, and train your regression
-    ### name your regression reg
-    ### your code goes here!
+    ### training regression
+
     x = np.array(x)
     y = np.array(y)
     clf = linear_model.LinearRegression()
